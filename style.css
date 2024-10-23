@@ -1,0 +1,84 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 5%;
+    padding: 0%;
+    background-image:url(https://images4.alphacoders.com/101/1019228.jpg);
+    color: white;
+
+}
+
+.lista-lol, .lista-peliculas {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-lol li, .lista-peliculas li {
+    background: url('https://preview.redd.it/ennd5zljlql21.png?width=256&format=png&auto=webp&s=d699fed3ae40c76c8735354c175a07b74d2e1e03') no-repeat left center; 
+    background-size: 20px 20px; 
+    padding-left: 30px; 
+    margin: 5px 0; 
+}
+
+header{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+table {
+    width: 45%;
+    border-collapse: collapse; 
+    margin: 20px 0; 
+}
+
+th, td {
+    padding: 15px; 
+    text-align: center;
+    border: 3px solid #000000; 
+}
+
+th {
+    background-color: #1421d8cc; 
+    color: white; 
+}
+
+tr:hover {
+    background-color: #7122b3c7; 
+}
+
+tr:nth-child(even) {
+    background-color: #7122b3c7; 
+}
+
+tr:nth-child(odd) {
+    background-color: #7122b3c7; 
+}
+
+caption {
+    font-size: 1.5em; 
+    margin: 10px; 
+}
+
+.lista-lol1 {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.lista-lol1 li {
+    position: relative; 
+    padding-left: 20px; 
+}
+
+.lista-lol1 li::before {
+    content: '✔'; 
+    position: absolute; 
+    left: 0; 
+    color: green;
+}
